@@ -16,7 +16,7 @@ public class ShootGame extends JavaPanel {
 
     public static void main(String[]args){
 
-        //设置窗口
+        //Set frame
         JFrame frame= new JFrame("Flight Game");
         ShootGame game= new ShootGame();
         frame.add(game);
@@ -25,10 +25,10 @@ public class ShootGame extends JavaPanel {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
-        //懒得找图标了 你可以去找一个
-        /*frame.setIconImage(new ImageIcon("images/icon.jpg").getImage()); // 设置窗体的图标*/
+        //Find a icon
+        /*frame.setIconImage(new ImageIcon("images/icon.jpg").getImage()); // */
 
-        //运行游戏
+        // Execute GAME
         game.action();
 
     }
